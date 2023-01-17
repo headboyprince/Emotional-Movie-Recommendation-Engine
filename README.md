@@ -5,9 +5,13 @@ The **"Emotional-Movie-Recommendation-Engine"** Github repository contains sever
 
 It then returns a randomly selected movie from the filtered list and generates a list of movie recommendations based on the selected movie using cosine similarity. The script also uses pandas library to load data from SQLite databases and sklearn library for feature extraction and similarity calculation.
 
+## Setting up the Database
+
 The **"scraped_movies_data.db", "cleaned_movies_data (1).db", "emotion_movies_data.db", "prepare_movies_data (1).db" and "model_movies_data.db"** are SQLite databases that contain the same movie dataset but with some slight modifications. 
 
 The **scraped_movies_data.db** is the raw data gotten from the web scraping of movies and their details, then **cleaned_movies_data (1).db** was cleaned and some modifications were made to the data, then emotion_movies_data.db was created to label the movies with their corresponding emotions, then **prepare_movies_data (1).db** was prepared for the final dataset which is the model_movies_data.db which was used to train the model that the app uses to make the recommendations.
+
+## Running the App
 
 To use the app, first, make sure you have all the necessary dependencies installed, then run the "movie_stream.py" script. The app will start a local server, and you can access it in your web browser by navigating to "http://localhost:8501/". Use the app to filter movies based on your preferences and get recommendations.
 
