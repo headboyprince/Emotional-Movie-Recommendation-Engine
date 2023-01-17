@@ -1,2 +1,46 @@
 # Emotional-Movie-Recommendation-Engine
- The code uses the Streamlit library to create a simple movie recommendation system. The system allows a user to filter movies based on their preferred emotion type, and whether they prefer classic or modern movies, and whether they prefer short or long movies. It then returns a randomly selected movie from the filtered list and generates a list of movie recommendations based on the selected movie using cosine similarity. The code is also using pandas library to load data from SQLite databases and sklearn library for feature extraction and similarity calculation. It starts by connecting to two SQLite databases, one containing movie data and the other containing emotion-labeled movie data. Then it loads the data into dataframes, preprocesses the data, and creates a vectorizer and cosine similarity matrix. Next, it defines two functions. The filter_movie function allows a user to filter movies based on their preferred emotion type, year, and duration, and returns a randomly selected movie from the filtered list. The get_recommendation function takes the title of a selected movie as an input and generates a list of movie recommendations based on the selected movie using cosine similarity. Finally, it defines a main function which calls the filter_movie and get_recommendation functions and displays the selected movie and recommended movies in the Streamlit app.
+A simple movie recommendation system that allows users to filter movies based on their preferred emotion type, and whether they prefer *classic or modern movies*, and whether they prefer *short or long movies*. It then returns a randomly selected movie from the filtered list and generates a list of movie recommendations based on the selected movie using **cosine similarity**.
+
+## Getting Started
+### Dependencies
+Python 3.x
+
+*   Pandas
+*   Sklearn
+*   SQLite3
+*   Streamlit
+
+
+
+## Installing...
+👉 Clone the repository to your local machine
+👉 Install the required dependencies using pip
+
+`pip install pandas sklearn sqlite3 streamlit`
+
+## Executing program
+
+*   Navigate to the project directory and run the following command
+
+`streamlit run app.py`
+
+
+*   This will launch the Streamlit app in your browser.
+
+Help
+If you encounter any problems or issues, please contact me at https://github.com/headboyprince or email me at princeben4real@gmail.com
+
+Authors
+Prince Ben
+Acknowledgments
+Geeksforgeeks
+TowardsDataScience
+Sk70249
+SheCodes-IEEE-CIS-GHRCE
+Future Research
+Adding a face detector that can automatically detect the users emotion instead of asking the user to enter his emotions manually.
+Contact
+Github
+Linkedin
+Rulehour
+Email: princeben4real@gmail.com
