@@ -46,7 +46,7 @@ Python 3.x
 *   This will launch the Streamlit app in your browser.
 
 ## Help
-If you encounter any problems or issues, please contact me at https://github.com/headboyprince or email me at princeben4real@gmail.com
+If you encounter any problems or issues, please contact me at https://github.com/headboyprince or email me at princebenjamin80@yahoo.com
 
 ## Authors
 Prince Ben
@@ -64,4 +64,4 @@ Adding a face detector that can automatically detect the users emotion instead o
 Github
 Linkedin
 Rulehour
-Email: princeben4real@gmail.com
+Email: princebenjamin80@yahoo.com
